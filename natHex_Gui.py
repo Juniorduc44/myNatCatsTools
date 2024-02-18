@@ -13,7 +13,6 @@ def button_function():
     global label
     entryState = entry.get()
     e = int(entryState)
-    print(hex(e))
     try:        
         conversion = (hex(e))
         print(conversion)

@@ -1,3 +1,4 @@
+__version__="0.1.2"
 # natHex_Gui
 # python 3.10.12
 import customtkinter

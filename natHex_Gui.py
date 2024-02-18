@@ -12,9 +12,15 @@ app.title("natcats hex tool")
 def button_function():
     global label
     entryState = entry.get()
-    e = int(entryState)
-    try:        
-        conversion = (hex(e))
+    e = entryState
+    try:
+        #First make sure to take out commas from bit numbers if there are any
+        a = str(e)
+        b = a.replace(',','')
+        c = int(b)
+
+        #Now continue hex conversion here
+        conversion = (hex(c))
         print(conversion)
         #shows results. Need to show after convert somehow
         label.configure(text=f"Results: {conversion}")

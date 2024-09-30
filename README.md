@@ -1,7 +1,7 @@
 # myNatCatsTools
 - [blockSearch](https://github.com/Juniorduc44/myNatCatsTools/blob/main/blockSearch.py)
   - Functional
-  - Time consuming
+  - Time consuming(11 secs per query)
   - Uses blockchain api correctly
   - Command line based
 - [blockSearch_GUI](https://github.com/Juniorduc44/myNatCatsTools/blob/main/blockSearch_GUI.py)

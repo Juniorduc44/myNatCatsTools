@@ -9,3 +9,8 @@
   - Time consuming(11 secs per query)
   - Uses blockchain api correctly
   - Graphic User Interface based
+
+</br>
+</br>
+
+## Load your python environment setup [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/loadPythonEnv.md)

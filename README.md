@@ -13,7 +13,7 @@
       - Graphic User Interface based
   - main_app, block_fetcher.py and block_fetcher2.py
     - Uses web blockchain api
-    - Uses node blockchain api (umbrel)
+    - Uses local node blockchain api (umbrel)
     - Graphic User Interface based
 
 </br>

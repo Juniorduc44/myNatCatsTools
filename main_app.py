@@ -74,7 +74,7 @@ class BlockSearchApp(ctk.CTk):
 
         use_rpc = self.fetcher_var.get() == "RPC"
         fetcher = block_fetcher2.fetch_block_data if use_rpc else block_fetcher.fetch_block_data
-        delay = 2 if use_rpc else 11  # 2 seconds for RPC, 11 seconds for API
+        delay = 0.098 if use_rpc else 11  # 2 seconds for RPC, 11 seconds for API
 
         for height in range(start_block, end_block + 1):
             self.update_results(f"Checking block {height}...\n")

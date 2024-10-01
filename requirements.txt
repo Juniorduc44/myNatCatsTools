@@ -9,3 +9,5 @@ idna==3.10
 packaging==23.2
 requests==2.32.3
 urllib3==2.2.3
+python-bitcoinrpc==1.0
+python-dotenv==1.0.1

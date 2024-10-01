@@ -1,4 +1,9 @@
-# myNatCatsTools
+
+## Load your python environment starting [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/loadPythonEnv.md)
+
+</br>
+
+## myNatCatsTools
 - For a Command Line Interface use:
    - [blockSearch](https://github.com/Juniorduc44/myNatCatsTools/blob/main/blockSearch.py)
      - Functional

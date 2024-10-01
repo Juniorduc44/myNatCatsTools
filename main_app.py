@@ -15,7 +15,7 @@ class BlockSearchApp(ctk.CTk):
         self.geometry("600x550")
 
         self.grid_columnconfigure(0, weight=1)
-        self.grid_rowconfigure(4, weight=1)
+        self.grid_rowconfigure(5, weight=1)
 
         self.create_widgets()
 
@@ -40,9 +40,18 @@ class BlockSearchApp(ctk.CTk):
                                             onvalue="RPC", offvalue="API")
         self.fetcher_switch.grid(row=1, column=0, padx=10, pady=10)
 
+        # Button Frame
+        button_frame = ctk.CTkFrame(self)
+        button_frame.grid(row=2, column=0, padx=10, pady=10, sticky="ew")
+        button_frame.grid_columnconfigure((0, 1), weight=1)
+
         # Search Button
-        self.search_button = ctk.CTkButton(self, text="Search", command=self.start_search)
-        self.search_button.grid(row=2, column=0, padx=10, pady=10)
+        self.search_button = ctk.CTkButton(button_frame, text="Search", command=self.start_search)
+        self.search_button.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
+
+        # Delete Button
+        self.delete_button = ctk.CTkButton(button_frame, text="Clear Results", command=self.clear_results)
+        self.delete_button.grid(row=0, column=1, padx=5, pady=5, sticky="ew")
 
         # Counter Label
         self.counter_label = ctk.CTkLabel(self, text="0/0 blocks with natcats")
@@ -100,6 +109,12 @@ class BlockSearchApp(ctk.CTk):
 
     def update_counter(self, natcat_count, total_count):
         self.counter_label.configure(text=f"{natcat_count}/{total_count} blocks with natcats")
+
+    def clear_results(self):
+        self.results_text.configure(state="normal")
+        self.results_text.delete("0.0", ctk.END)
+        self.results_text.configure(state="disabled")
+        self.counter_label.configure(text="0/0 blocks with natcats")
 
 if __name__ == "__main__":
     app = BlockSearchApp()

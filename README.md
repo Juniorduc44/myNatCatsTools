@@ -26,6 +26,15 @@
 - make sure to change "example.env" to ".env"
 
 </br>
+
+## Ready to run
+#### Run blockSearch
+    python blockSearch.p
+#### Run blockSearch_GUI
+    python blockSearch_GUI.py
+#### Run Main GUI with Website API or Remote Umbrel node API
+    python main_app.py
+</br>
 </br>
 
 ### Load your python environment setup [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/loadPythonEnv.md)

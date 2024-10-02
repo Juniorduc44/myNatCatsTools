@@ -1,1 +1,1 @@
-windows, linux, command line, gui, natcat, dmt,
+windows linux commandline gui natcat dmt

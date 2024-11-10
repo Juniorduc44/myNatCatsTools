@@ -39,6 +39,19 @@
 
 ### Load your python environment setup [here](./loadPythonEnv.md)
 
-#### Donations
- - Bitcoin: bc1q3r20edqvny8s5s9cck2msufa8ahse5ljh9ypwj
+<details>
+<summary>Donations</summary>
+
+ <h3 align="center">BITCOIN</h3>
+ <h3 align="center">bc1q3r20edqvny8s5s9cck2msufa8ahse5ljh9ypwj</h3>
+     <p align="center">
+     <picture>
+         <source media="(prefers-color-scheme: dark)" srcset="./images/qrDonation_myNatCatsTools.png">
+         <img src="./images/qrDonation_myNatCatsTools.png">
+     </picture>
+     </p>
+ </h3>
+
+
+ </details>
 

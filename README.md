@@ -1,15 +1,15 @@
 
 ## myNatCatsTools
-#### Load your python environment starting [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/loadPythonEnv.md)
+#### Load your python environment starting [here](./loadPythonEnv.md)
 
 - For a Command Line Interface use:
-   - [blockSearch](https://github.com/Juniorduc44/myNatCatsTools/blob/main/blockSearch.py)
+   - [blockSearch](./blockSearch.py)
      - Functional
      - Time consuming(11 secs per query)
      - Uses web blockchain api
      - Command line based
 - For a Graphic User Interface use:
-   - [blockSearch_GUI](https://github.com/Juniorduc44/myNatCatsTools/blob/main/blockSearch_GUI.py)
+   - [blockSearch_GUI](./blockSearch_GUI.py)
       - Functional
       - Time consuming(11 secs per query)
       - Uses web blockchain api
@@ -22,7 +22,7 @@
 </br>
 
 ## For Node Configuration
-### Start with enabling RPC and REST [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/umbrelBitcoinRPC.md)
+### Start with enabling RPC and REST [here](./umbrelBitcoinRPC.md)
 - make sure to change "example.env" to ".env"
 
 </br>
@@ -37,4 +37,8 @@
 </br>
 </br>
 
-### Load your python environment setup [here](https://github.com/Juniorduc44/myNatCatsTools/blob/main/loadPythonEnv.md)
+### Load your python environment setup [here](./loadPythonEnv.md)
+
+#### Donations
+ - Bitcoin: bc1q3r20edqvny8s5s9cck2msufa8ahse5ljh9ypwj
+

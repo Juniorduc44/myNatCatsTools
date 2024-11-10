@@ -42,6 +42,7 @@
 <details>
 <summary>Donations</summary>
 
+ ##### QR CODE create by: [Juniorduc44](https://github.com/Juniorduc44/qrGenGui)
  <h3 align="center">BITCOIN</h3>
  <h3 align="center">bc1q3r20edqvny8s5s9cck2msufa8ahse5ljh9ypwj</h3>
      <p align="center">
